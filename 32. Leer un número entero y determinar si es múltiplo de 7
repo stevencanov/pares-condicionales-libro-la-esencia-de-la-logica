@@ -1,0 +1,33 @@
+#include <iostream>
+#include <stdio.h>
+
+	using namespace std;
+
+	int main()
+
+	{
+		
+		int n;
+		
+		
+	    	cout<< "ingrese un numero" <<endl;  
+	 cout<< "///////////////////////////////////////" <<endl;
+	cin >>n;
+
+				
+			cout<<"///////////////////////////////////////"<<endl;
+			cout<<"el numero es :"<<n <<endl;
+        
+              if (n % 7 == 0)
+                  {                                      
+	        cout<<"el numero  es multiplo de 7 :"<<endl;
+	
+                   }
+else {
+	cout<<"el numero no es multiplo de 7 :"<< endl;
+}
+
+
+return (0);
+	}
+	
