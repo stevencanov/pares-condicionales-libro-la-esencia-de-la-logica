@@ -1,0 +1,47 @@
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+
+
+{
+    
+    int n, n1 ,n2;
+
+
+    cout<<"ingrese numero"<<endl;
+    cin >> n;
+    
+    n1 = n / 10; // primer digito
+    n2 = n % 10; // segundo digito
+    
+    
+    
+    
+    if (n2 == 1) {
+         cout<<"primer caso : " <<n1 <<endl;
+        
+        
+    }	
+    
+    if (n2 == 2) {
+         cout<<"segundo caso. : "<<n1+n2 <<endl;
+
+    }	
+    
+    if (n2 == 3) {
+        cout<<"tercer caso. : "<<n <<endl;
+
+    }
+	
+
+
+
+
+
+
+
+return(0);
+}
